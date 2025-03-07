@@ -23,6 +23,6 @@ jobs:
       with:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
         resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP }}
-        template: ./infra/exported_template.json
-        parameters: ./infra/parameters.json
+        #template: ./infra/exported_template.json
+        #parameters: ./infra/parameters.json
         deploymentMode: Incremental
